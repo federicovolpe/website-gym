@@ -1,0 +1,63 @@
+.centrali {}
+
+body {
+    background: url("immagini/palestra2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.login-form {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 35px;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: rgb(255, 183, 0);
+    color: white;
+    border: none;
+    /*padding: 10px 20px;*/
+    border-radius: 5px;
+    cursor: pointer;
+    font: backdrop;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.contenuti-footer {
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
